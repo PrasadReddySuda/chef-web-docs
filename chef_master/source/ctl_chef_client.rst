@@ -72,12 +72,16 @@ This command has the following options:
 
    This option is only available on machines that run in UNIX or Linux environments. For machines that are running Microsoft Windows that require similar functionality, use the ``chef-client::service`` recipe in the ``chef-client`` cookbook: https://supermarket.chef.io/cookbooks/chef-client. This will install a chef-client service under Microsoft Windows using the Windows Service Wrapper.
 
+<<<<<<< HEAD
    New in Chef Client 12.9.
 
 ``--delete-entire-chef-repo``
    This option deletes an entire repository.  This option may only be used when running the chef-client in local mode, (``--local-mode``).  This option requires ``--recipe-url`` to be specified.
 
    New in Chef Client 12.7
+=======
+   New in Chef client 12.9.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``--disable-config``
    Use to run the chef-client using default settings. This will prevent the normally-associated configuration file from being used. This setting should only be used for testing purposes and should never be used in a production setting.
@@ -358,7 +362,11 @@ About chef-zero
 -----------------------------------------------------
 chef-zero is a very lightweight Chef server that runs in-memory on the local machine. This allows the chef-client to be run against the chef-repo as if it were running against the Chef server. chef-zero was `originally a standalone tool <https://github.com/chef/chef-zero>`_; it is enabled from within the chef-client by using the ``--local-mode`` option. chef-zero is very useful for quickly testing and validating the behavior of the chef-client, cookbooks, recipes, and run-lists before uploading that data to the actual Chef server.
 
+<<<<<<< HEAD
 Changed in Chef Client 12.8, now chef-zero supports all Chef server API version 12 endpoints, except ``/universe``.
+=======
+As of Chef client 12.8, chef-zero supports all Chef server API version 12 endpoints, except ``/universe``.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 Use Encrypted Data Bags
 -----------------------------------------------------
@@ -420,7 +428,13 @@ Notes about FIPS:
 * Should only be enabled for environments that require FIPS 140-2 compliance
 * May not be enabled for any version of the chef-client earlier than 12.8
 
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+=======
+New in Chef client 12.8, support for OpenSSL validation of FIPS.
+
+.. end_tag
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 

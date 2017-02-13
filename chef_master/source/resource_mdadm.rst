@@ -102,7 +102,11 @@ This resource has the following properties:
 
    The RAID5 parity algorithm. Possible values: ``left-asymmetric`` (or ``la``), ``left-symmetric`` (or ``ls``), ``right-asymmetric`` (or ``ra``), or ``right-symmetric`` (or ``rs``).
 
+<<<<<<< HEAD
    New in Chef Client 12.10
+=======
+   New in Chef client 12.10
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``level``
    **Ruby Type:** Integer
@@ -114,7 +118,11 @@ This resource has the following properties:
 
    When ``true`` this property sets the default values for ``chunk`` and ``metadata`` to ``nil`` allowing mdadm to use its own default values. Default value: ``false``.
 
+<<<<<<< HEAD
    New in Chef Client 12.9.
+=======
+   New in Chef client 12.9.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``metadata``
    **Ruby Type:** String

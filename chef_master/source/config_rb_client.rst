@@ -229,7 +229,11 @@ This configuration file has the following settings:
 ``log_location``
    The location of the log file. Possible values: ``/path/to/log_location``, ``STDOUT``, ``STDERR``, ``:win_evt`` (Windows Event Logger), or ``:syslog`` (writes to the syslog daemon facility with the originator set as ``chef-client``). The application log will specify the source as ``Chef``. Default value: ``STDOUT``.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in 12.4 to support the Windows Event Logger and configuration with the daemon facility.
+=======
+   Changed in Chef client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``minimal_ohai``
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
@@ -392,7 +396,11 @@ The ``old_settings.rb.bak`` file is ignored because it's not a configuration fil
 
 .. note:: If multiple configuration files exists in a ``.d`` directory, ensure that the same setting has the same value in all files.
 
+<<<<<<< HEAD
 New in Chef Client 12.8.
+=======
+New in Chef client 12.8.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 

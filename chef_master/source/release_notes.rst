@@ -712,7 +712,11 @@ is equivalent to:
      action :delete
    end
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -739,7 +743,11 @@ For example:
 
    delete_resource(:template, '/x/y.erb')
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -766,7 +774,11 @@ For example:
 
    delete_resource!(:file, '/x/file.txt')
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -810,7 +822,11 @@ and a resource block:
      notifies :run, 'execute[newaliases]'
    end
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -843,7 +859,11 @@ For example:
 
    edit_resource!(:file, '/x/y.rst')
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -884,7 +904,11 @@ and a resource block:
      notifies :run, 'execute[newseapower]'
    end
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -911,7 +935,11 @@ For example:
 
    find_resource!(:template, '/x/y.erb')
 
+<<<<<<< HEAD
 New in Chef Client 12.10.
+=======
+New in Chef client 12.10.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1005,7 +1033,11 @@ Notes about FIPS:
 * Should only be enabled for environments that require FIPS 140-2 compliance
 * May not be enabled for any version of the chef-client earlier than 12.8
 
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+=======
+New in Chef client 12.8, support for OpenSSL validation of FIPS.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1076,7 +1108,11 @@ The ``old_settings.rb.bak`` file is ignored because it's not a configuration fil
 
 .. note:: If multiple configuration files exists in a ``.d`` directory, ensure that the same setting has the same value in all files.
 
+<<<<<<< HEAD
 New in Chef Client 12.8.
+=======
+New in Chef client 12.8.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1085,6 +1121,8 @@ launchd
 .. tag resource_launchd_summary
 
 Use the **launchd** resource to manage system-wide services (daemons) and per-user services (agents) on the Mac OS X platform.
+
+*New in Chef Client 12.8.*
 
 .. end_tag
 
@@ -1621,7 +1659,11 @@ Specifies a gem dependency to be installed via the **chef_gem** resource after a
    gem "chef-sugar"
    gem "chef-provisioning"
 
+<<<<<<< HEAD
 New in Chef Client 12.8.
+=======
+New in Chef client 12.8.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 

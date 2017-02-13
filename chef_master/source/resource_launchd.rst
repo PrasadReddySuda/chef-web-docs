@@ -7,6 +7,11 @@ launchd
 
 Use the **launchd** resource to manage system-wide services (daemons) and per-user services (agents) on the Mac OS X platform.
 
+<<<<<<< HEAD
+=======
+*New in Chef Client 12.8.*
+
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 .. end_tag
 
 Syntax

@@ -5,7 +5,11 @@ Chef for Microsoft Windows
 
 .. note:: This page collects information about Chef that is specific to using Chef with Microsoft Windows.
 
+<<<<<<< HEAD
 .. note:: New in Chef Client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
+=======
+.. note:: New in Chef client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 The chef-client has specific components that are designed to support unique aspects of the Microsoft Windows platform, including Windows PowerShell, Internet Information Services (IIS), and SQL Server.
 

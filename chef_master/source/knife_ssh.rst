@@ -64,7 +64,11 @@ This subcommand has the following options:
 ``-P PASSWORD``, ``--ssh-password PASSWORD``
    The SSH password. This can be used to pass the password directly on the command line. If this option is not specified (and a password is required) knife prompts for the password.
 
+<<<<<<< HEAD
    New in Chef Client 12.15.
+=======
+   New in Chef client 12.15.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``SEARCH_QUERY``
    The search query used to return a list of servers to be accessed using SSH and the specified ``SSH_COMMAND``. This option uses the same syntax as the search subcommand.
@@ -75,7 +79,11 @@ This subcommand has the following options:
 ``-t SECONDS``, ``--ssh-timeout SECONDS``
    The amount of time (in seconds) to wait for an SSH connection time out.
 
+<<<<<<< HEAD
    New in Chef Client 12.9.
+=======
+   New in Chef client 12.9.
+>>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 ``--tmux-split``
    Split the Tmux window. Default value: ``false``.
