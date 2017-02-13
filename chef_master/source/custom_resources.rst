@@ -13,7 +13,12 @@ As of Chef client 12.14, individual properties can be marked as `sensitive: true
 
 As of 12.14, individual properties can be marked as `sensitive: true`, which suppresses the value of that property when exporting the resource's state.
 
+<<<<<<< HEAD
 >>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
+=======
+As of 12.14, individual properties can be marked as `sensitive: true`, which suppresses the value of that property when exporting the resource's state.
+
+>>>>>>> 8947337... Adds Chef client 12.8-12.18 version notes
 .. tag custom_resources_summary
 
 A custom resource:

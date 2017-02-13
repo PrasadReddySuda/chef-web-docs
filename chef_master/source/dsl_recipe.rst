@@ -1329,11 +1329,7 @@ is equivalent to:
      action :delete
    end
 
-<<<<<<< HEAD
-New in Chef Client 12.10.
-=======
 New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1360,11 +1356,7 @@ For example:
 
    delete_resource(:template, '/x/y.erb')
 
-<<<<<<< HEAD
-New in Chef Client 12.10.
-=======
 New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1391,11 +1383,7 @@ For example:
 
    delete_resource!(:file, '/x/file.txt')
 
-<<<<<<< HEAD
-New in Chef Client 12.10.
-=======
 New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1439,11 +1427,7 @@ and a resource block:
      notifies :run, 'execute[newaliases]'
    end
 
-<<<<<<< HEAD
 New in Chef Client 12.10.
-=======
-New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1476,11 +1460,7 @@ For example:
 
    edit_resource!(:file, '/x/y.rst')
 
-<<<<<<< HEAD
 New in Chef Client 12.10.
-=======
-New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1521,11 +1501,7 @@ and a resource block:
      notifies :run, 'execute[newseapower]'
    end
 
-<<<<<<< HEAD
 New in Chef Client 12.10.
-=======
-New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
@@ -1552,11 +1528,7 @@ For example:
 
    find_resource!(:template, '/x/y.erb')
 
-<<<<<<< HEAD
-New in Chef Client 12.10.
-=======
 New in Chef client 12.10.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 

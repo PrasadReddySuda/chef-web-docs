@@ -169,11 +169,7 @@ This configuration file has the following settings:
       gem "chef-sugar"
       gem "chef-provisioning"
 
-<<<<<<< HEAD
-   New in Chef Client 12.8.
-=======
    New in Chef client 12.8.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
    .. end_tag
 

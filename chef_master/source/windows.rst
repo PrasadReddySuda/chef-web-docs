@@ -5,11 +5,7 @@ Chef for Microsoft Windows
 
 .. note:: This page collects information about Chef that is specific to using Chef with Microsoft Windows.
 
-<<<<<<< HEAD
-.. note:: New in Chef Client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
-=======
 .. note:: New in Chef client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 The chef-client has specific components that are designed to support unique aspects of the Microsoft Windows platform, including Windows PowerShell, Internet Information Services (IIS), and SQL Server.
 
@@ -4656,7 +4652,7 @@ Use the **windows_package** resource to manage Microsoft Installer Package (MSI)
 
 .. end_tag
 
-Changed in 12.4 to include ``checksum`` and ``remote_file_attributes`` and URL locations on the ``source`` properties. Changed in Chef Client 12.6 to support a greater variety of ``installer_type``; Changed in 12.0 for ``installer_type`` to require a symbol. 
+Changed in 12.4 to include ``checksum`` and ``remote_file_attributes`` and URL locations on the ``source`` properties. Changed in Chef Client 12.6 to support a greater variety of ``installer_type``; Changed in 12.0 for ``installer_type`` to require a symbol.
 
 Syntax
 +++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -7,11 +7,8 @@ launchd
 
 Use the **launchd** resource to manage system-wide services (daemons) and per-user services (agents) on the Mac OS X platform.
 
-<<<<<<< HEAD
-=======
-*New in Chef Client 12.8.*
+New in Chef Client 12.8.
 
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 .. end_tag
 
 Syntax
@@ -149,7 +146,7 @@ This resource has the following properties:
 
    A Hash of key value pairs used to create the launchd property list.
 
-   Renamed to ``plist_hash`` in Chef Client 12.19.  
+   Renamed to ``plist_hash`` in Chef Client 12.19.
 
 ``ignore_failure``
    **Ruby Types:** TrueClass, FalseClass
