@@ -75,6 +75,12 @@ This command has the following options:
    New in Chef Client 12.9.
 
 ``--delete-entire-chef-repo``
+   This option deletes an entire repository.  This option may only be used when running the chef-client in local mode (``--local-mode``).  This option requires ``--recipe-url` to be specified.
+
+   *New in Chef client 12.7*
+>>>>>>> 5e064ed... Added versioning for chef-client 12.6 - 12.8
+
+``--delete-entire-chef-repo``
    This option deletes an entire repository.  This option may only be used when running the chef-client in local mode, (``--local-mode``).  This option requires ``--recipe-url`` to be specified.
 
 ``--disable-config``

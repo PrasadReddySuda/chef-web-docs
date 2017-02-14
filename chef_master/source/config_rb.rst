@@ -209,11 +209,7 @@ The ``old_settings.rb.bak`` file is ignored because it's not a configuration fil
 
 .. note:: If multiple configuration files exists in a ``.d`` directory, ensure that the same setting has the same value in all files.
 
-<<<<<<< HEAD
-New in Chef Client 12.8.
-=======
 New in Chef client 12.8.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
 
 .. end_tag
 
