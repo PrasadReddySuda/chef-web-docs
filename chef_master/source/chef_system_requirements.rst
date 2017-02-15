@@ -22,12 +22,7 @@ In addition:
 
 =======
 * Each node and workstation must have access to the Chef server via HTTPS. If you have a proxy, :doc:`read about how to configure </proxies>` the chef-client for that proxy.
-* Ruby 2.2.2 (or higher). In general, using the version of Ruby that is installed by the omnibus installer is recommended.  As of Chef client 12.14, Ruby 2.3.1 is recommended; Chef client 12.13 updated to Ruby 2.1.9.
->>>>>>> 8b0ba3c... Adds Chef client 12.8-12.18 version notes
-=======
 * Ruby 2.2.2 (or higher). In general, using the version of Ruby that is installed by the omnibus installer is recommended. As of Chef client 12.14, Ruby 2.3.1 is recommended; Chef client 12.13 updated to Ruby 2.1.9.
-
->>>>>>> 8947337... Adds Chef client 12.8-12.18 version notes
 * The hosted Chef server is compatible with chef-client version 0.10.0 and greater; older clients must be upgraded before they can connect to Hosted Chef
 
 The Chef Server
