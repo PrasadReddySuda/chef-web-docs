@@ -29,7 +29,7 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 
 .. warning:: The **dsc_script** resource  may not be used in the same run-list with the **dsc_resource**. This is because the **dsc_script** resource requires that ``RefreshMode`` in the Local Configuration Manager be set to ``Push``, whereas the **dsc_resource** resource requires it to be set to ``Disabled``.
 
-Changed in Chef Client 12.5 to include ``ps_credential`` helper.
+Changed in Chef client 12.5 to include ``ps_credential`` helper.
 
 Syntax
 =====================================================

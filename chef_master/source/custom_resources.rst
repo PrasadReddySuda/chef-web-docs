@@ -5,8 +5,6 @@ Custom Resources
 
 As of Chef client version 12.5, this recommended approach for all custom resources. See  https://github.com/chef-cookbooks/compat_resource for using custom resources with chef-client 12.1 - 12.4.
 
-As of Chef client 12.14, individual properties can be marked as `sensitive: true`, which suppresses the value of that property when exporting the resource's state. As of Chef client version 12.5, "resource attributes" are now known as "resource properties".
-
 .. tag custom_resources_summary
 
 A custom resource:
@@ -21,7 +19,8 @@ For example, Chef includes built-in resources to manage files, packages, templat
 
 .. end_tag
 
-As of 12.14, individual properties can be marked as `sensitive: true`, which suppresses the value of that property when exporting the resource's state. Changed in Chef Client 12.5. This is the recommended approach for all custom resources starting with Chef client 12.5. If you are using an older version of Chef client, please use the version picker (in the top left of the navigation) to select your version, and then choose the same topic from the navigation tree ("Extend Chef > Custom Resources"). See also https://github.com/chef-cookbooks/compat_resource for using custom resources with chef-client 12.1 - 12.4.  Chanted in 12.5, "resource attributes" are now known as "resource properties".
+As of 12.14, individual properties can be marked as `sensitive: true`, which suppresses the value of that property when exporting the resource's state.
+Changed in Chef client 12.5. This is the recommended approach for all custom resources starting with Chef client 12.5. If you are using an older version of Chef client, please use the version picker (in the top left of the navigation) to select your version, and then choose the same topic from the navigation tree ("Extend Chef > Custom Resources"). See also https://github.com/chef-cookbooks/compat_resource for using custom resources with chef-client 12.1 - 12.4.  Changed in 12.5, "resource attributes" are now known as "resource properties".
 
 Syntax
 =====================================================
