@@ -99,8 +99,13 @@ This resource has the following properties:
                   action :install
                 end
 
+<<<<<<< HEAD
    New in Chef Client 12.3.
 
+=======
+   New in Chef client 12.3.
+   
+>>>>>>> fce95b1... Version 12.3 annotations
 ``compile_time``
    **Ruby Types:** TrueClass, FalseClass
 

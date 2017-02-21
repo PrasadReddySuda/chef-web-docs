@@ -261,7 +261,11 @@ This command has the following options:
 ``--minimal-ohai``
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
 
+<<<<<<< HEAD
    New in Chef Client 12.3.
+=======
+   New in Chef client 12.3.
+>>>>>>> fce95b1... Version 12.3 annotations
 
 ``--[no-]color``
    View colored output. Default setting: ``--color``.
@@ -272,7 +276,11 @@ This command has the following options:
 ``--[no-]listen``
    Run chef-zero in socketless mode.
 
+<<<<<<< HEAD
    New in Chef Client 12.3.
+=======
+   New in Chef client 12.3.
+>>>>>>> fce95b1... Version 12.3 annotations
 
 ``-n NAME``, ``--named-run-list NAME``
    The run-list associated with a policy file.

@@ -210,7 +210,11 @@ This resource has the following properties:
 
    Set to ``true`` to download a gem from the path specified by the ``source`` property (and not from RubyGems). Default value: ``false``.
 
+<<<<<<< HEAD
    New in Chef Client 12.3.
+=======
+   New in Chef client 12.3.
+>>>>>>> fce95b1... Version 12.3 annotations
 
 ``gem_binary``
    **Ruby Type:** String

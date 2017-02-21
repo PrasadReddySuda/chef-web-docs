@@ -210,7 +210,11 @@ This configuration file has the following settings:
 ``listen``
    Run chef-zero in socketless mode. Set to ``false`` to disable port binding and HTTP requests on localhost.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.3.
+=======
+   New in Chef client 12.3.
+>>>>>>> fce95b1... Version 12.3 annotations
 
 ``local_key_generation``
    Whether the Chef server or chef-client generates the private/public key pair. When ``true``, the chef-client generates the key pair, and then sends the public key to the Chef server. Default value: ``true``.
