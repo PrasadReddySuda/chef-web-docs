@@ -104,8 +104,12 @@ This resource has the following properties:
 
 =======
    New in Chef client 12.3.
+<<<<<<< HEAD
    
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+
+>>>>>>> 178ba83... Adds version 12.1 notes
 ``compile_time``
    **Ruby Types:** TrueClass, FalseClass
 

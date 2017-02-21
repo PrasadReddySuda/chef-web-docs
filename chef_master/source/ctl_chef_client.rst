@@ -415,7 +415,11 @@ Use following option to run the chef-client in audit-mode mode:
 ``--audit-mode MODE``
    Enable audit-mode. Set to ``audit-only`` to skip the converge phase of the chef-client run and only perform audits. Possible values: ``audit-only``, ``disabled``, and ``enabled``. Default value: ``disabled``.
 
+<<<<<<< HEAD
 New in Chef Client 12.1.
+=======
+New in Chef client 12.1.
+>>>>>>> 178ba83... Adds version 12.1 notes
 
 Run in FIPS Mode
 =====================================================
