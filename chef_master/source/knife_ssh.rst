@@ -41,7 +41,11 @@ This subcommand has the following options:
 ``-e``, ``--exit-on-error``
    Use to exit immediately upon error.
 
+<<<<<<< HEAD
    New in Chef Client 12.2.
+=======
+   New in Chef client 12.2.
+>>>>>>> 7add97f... Adds version 12.2 notes
 
 ``-G GATEWAY``, ``--ssh-gateway GATEWAY``
    The SSH tunnel or gateway that is used to run a bootstrap action on a machine that is not accessible from the workstation.

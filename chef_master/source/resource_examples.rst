@@ -2154,7 +2154,11 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 
 .. end_tag
 
+<<<<<<< HEAD
 New in Chef Client 12.2.  Changed in Chef Client 12.6.
+=======
+New in Chef client 12.2.  Changed in Chef client 12.6.
+>>>>>>> 7add97f... Adds version 12.2 notes
 
 **Specify DSC code directly**
 

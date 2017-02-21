@@ -3063,7 +3063,11 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 
 .. end_tag
 
+<<<<<<< HEAD
 New in Chef Client 12.2.  Changed in Chef Client 12.6.
+=======
+New in Chef client 12.2.  Changed in Chef client 12.6.
+>>>>>>> 7add97f... Adds version 12.2 notes
 
 .. note:: Windows PowerShell 4.0 is required for using the **dsc_script** resource with Chef.
 
