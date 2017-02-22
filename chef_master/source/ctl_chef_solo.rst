@@ -55,7 +55,11 @@ This command has the following options:
 ``-f``, ``--[no-]fork``
    Contain the chef-client run in a secondary process with dedicated RAM. When the chef-client run is complete, the RAM is returned to the master process. This option helps ensure that a chef-client uses a steady amount of RAM over time because the master process does not run recipes. This option also helps prevent memory leaks such as those that can be introduced by the code contained within a poorly designed cookbook. Use ``--no-fork`` to disable running the chef-client in fork node. Default value: ``--fork``. This option may not be used in the same command with the ``--daemonize`` and ``--interval`` options.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed.
+=======
+   Changed in Chef Client 12.0.
+>>>>>>> 41705f4... Adds 12.0 version notes -- part 1
 
 ``-F FORMAT``, ``--format FORMAT``
    .. tag ctl_chef_client_options_format
@@ -184,6 +188,8 @@ This command has the following options:
 
 ``-s SECONDS``, ``--splay SECONDS``
    A random number between zero and ``splay`` that is added to ``interval``. Use splay to help balance the load on the Chef server by ensuring that many chef-client runs are not occuring at the same interval. When the chef-client is run at intervals, ``--splay`` and ``--interval`` values are applied before the chef-client run.
+
+   Changed in Chef Client 12.0 to be applied before the chef-client run.
 
 ``-u USER``, ``--user USER``
    The user that owns a process. This is required when starting any executable as a daemon.

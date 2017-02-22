@@ -349,7 +349,11 @@ This configuration file has the following settings:
 
       source_url 'https://github.com/chef-cookbooks/chef-client'
 
+<<<<<<< HEAD
    New in Chef Client 12.0.
+=======
+   New in Chef Client 12.0. 
+>>>>>>> 41705f4... Adds 12.0 version notes -- part 1
 
 ``supports``
    Show that a cookbook has a supported platform. Use a version constraint to define dependencies for platform versions: ``<`` (less than), ``<=`` (less than or equal to), ``=`` (equal to), ``>=`` (greater than or equal to), ``~>`` (approximately greater than), or ``>`` (greater than). To specify more than one platform, use more than one ``supports`` field, once for each platform.

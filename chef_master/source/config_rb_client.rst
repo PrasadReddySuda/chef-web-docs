@@ -117,6 +117,8 @@ This configuration file has the following settings:
 
    Changed in Chef Client 12.0 to send events to the Microsoft Windows "Application" event log by default.
 
+   Changed in Chef Client 12.0.
+
 ``enable_reporting``
    Cause the chef-client to send data to the Chef server for use with Reporting.
 
@@ -202,7 +204,11 @@ This configuration file has the following settings:
 ``interval``
    The frequency (in seconds) at which the chef-client runs. Default value: ``1800``.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked intervals are no longer allowed.
+=======
+   Changed in Chef Client 12.0.
+>>>>>>> 41705f4... Adds 12.0 version notes -- part 1
 
 ``json_attribs``
    The path to a file that contains JSON data.

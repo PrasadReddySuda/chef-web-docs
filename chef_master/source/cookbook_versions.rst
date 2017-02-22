@@ -147,8 +147,15 @@ Versions and version constraints can be specified in a cookbook's metadata.rb fi
           depends 'runit', '~> 1.2.3'
 
    * - ``provides``
+<<<<<<< HEAD
      - Add a recipe, definition, or resource that is provided by this cookbook, should the auto-populated list be insufficient. New in Chef Client 12.0.
 
+=======
+     - Add a recipe, definition, or resource that is provided by this cookbook, should the auto-populated list be insufficient.
+
+     New in Chef Client 12.0.
+     
+>>>>>>> 41705f4... Adds 12.0 version notes -- part 1
    * - ``recommends``
      - Add a dependency on another cookbook that is recommended, but not required. A cookbook will still work even if recommended dependencies are not available.
    * - ``replaces``
