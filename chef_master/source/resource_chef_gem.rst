@@ -100,6 +100,7 @@ This resource has the following properties:
                 end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.3.
 
 =======
@@ -108,6 +109,9 @@ This resource has the following properties:
    
 >>>>>>> fce95b1... Version 12.3 annotations
 =======
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 >>>>>>> 178ba83... Adds version 12.1 notes
 ``compile_time``

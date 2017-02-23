@@ -10,10 +10,14 @@ Windows PowerShell is a task-based command-line shell and scripting language dev
 .. end_tag
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 New in Chef Client 12.2.  Changed in Chef Client 12.6.
 =======
 New in Chef client 12.2.  Changed in Chef client 12.6.
 >>>>>>> 7add97f... Adds version 12.2 notes
+=======
+New in Chef Client 12.2.  Changed in Chef Client 12.6.
+>>>>>>> 0f98217... Normalized capitalization
 
 .. tag resources_common_powershell_dsc
 
@@ -33,7 +37,7 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 
 .. warning:: The **dsc_script** resource  may not be used in the same run-list with the **dsc_resource**. This is because the **dsc_script** resource requires that ``RefreshMode`` in the Local Configuration Manager be set to ``Push``, whereas the **dsc_resource** resource requires it to be set to ``Disabled``.
 
-Changed in Chef client 12.5 to include ``ps_credential`` helper.
+Changed in Chef Client 12.5 to include ``ps_credential`` helper.
 
 Syntax
 =====================================================

@@ -301,7 +301,11 @@ Notes about FIPS:
 * Should only be enabled for environments that require FIPS 140-2 compliance
 * May not be enabled for any version of the chef-client earlier than 12.8
 
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+=======
+*New in Chef Client 12.8, support for OpenSSL validation of FIPS.*
+>>>>>>> 0f98217... Normalized capitalization
 
 .. end_tag
 

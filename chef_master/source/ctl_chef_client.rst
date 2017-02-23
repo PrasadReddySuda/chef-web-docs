@@ -76,12 +76,12 @@ This command has the following options:
 
    This option is only available on machines that run in UNIX or Linux environments. For machines that are running Microsoft Windows that require similar functionality, use the ``chef-client::service`` recipe in the ``chef-client`` cookbook: https://supermarket.chef.io/cookbooks/chef-client. This will install a chef-client service under Microsoft Windows using the Windows Service Wrapper.
 
-   New in Chef client 12.9.
+   New in Chef Client 12.9.
 
 ``--delete-entire-chef-repo``
    This option deletes an entire repository.  This option may only be used when running the chef-client in local mode, (``--local-mode``).  This option requires ``--recipe-url`` to be specified.
 
-   New in Chef client 12.7
+   New in Chef Client 12.7
 
 ``--delete-entire-chef-repo``
    This option deletes an entire repository.  This option may only be used when running the chef-client in local mode, (``--local-mode``).  This option requires ``--recipe-url`` to be specified.
@@ -133,7 +133,11 @@ This command has the following options:
 ``-j PATH``, ``--json-attributes PATH``
    The path to a file that contains JSON data. Used to setup the first client run. For all the future runs with option -i the attributes are expected to be persisted in the chef-server.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.5 to support policy revisions and environments.
+=======
+   Changed in Chef Client 12.5 to support policy revisions and environments,.
+>>>>>>> 0f98217... Normalized capitalization
 
    **Run-lists**
 
@@ -270,10 +274,14 @@ This command has the following options:
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.3.
 =======
    New in Chef client 12.3.
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``--[no-]color``
    View colored output. Default setting: ``--color``.
@@ -285,10 +293,14 @@ This command has the following options:
    Run chef-zero in socketless mode.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.3.
 =======
    New in Chef client 12.3.
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``-n NAME``, ``--named-run-list NAME``
    The run-list associated with a policy file.
@@ -424,10 +436,14 @@ Use following option to run the chef-client in audit-mode mode:
    Enable audit-mode. Set to ``audit-only`` to skip the converge phase of the chef-client run and only perform audits. Possible values: ``audit-only``, ``disabled``, and ``enabled``. Default value: ``disabled``.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 New in Chef Client 12.1.
 =======
 New in Chef client 12.1.
 >>>>>>> 178ba83... Adds version 12.1 notes
+=======
+New in Chef Client 12.1.
+>>>>>>> 0f98217... Normalized capitalization
 
 Run in FIPS Mode
 =====================================================
@@ -443,7 +459,11 @@ Notes about FIPS:
 * Should only be enabled for environments that require FIPS 140-2 compliance
 * May not be enabled for any version of the chef-client earlier than 12.8
 
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+=======
+*New in Chef Client 12.8, support for OpenSSL validation of FIPS.*
+>>>>>>> 0f98217... Normalized capitalization
 
 .. end_tag
 

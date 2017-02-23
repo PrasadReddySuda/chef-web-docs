@@ -5,7 +5,7 @@ Chef for Microsoft Windows
 
 .. note:: This page collects information about Chef that is specific to using Chef with Microsoft Windows.
 
-.. note:: New in Chef client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
+.. note:: New in Chef Client 12.9, Chef client now runs on 64-bit versions of Microsoft Windows.
 
 The chef-client has specific components that are designed to support unique aspects of the Microsoft Windows platform, including Windows PowerShell, Internet Information Services (IIS), and SQL Server.
 
@@ -3064,10 +3064,14 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 .. end_tag
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 New in Chef Client 12.2.  Changed in Chef Client 12.6.
 =======
 New in Chef client 12.2.  Changed in Chef client 12.6.
 >>>>>>> 7add97f... Adds version 12.2 notes
+=======
+New in Chef Client 12.2.  Changed in Chef Client 12.6.
+>>>>>>> 0f98217... Normalized capitalization
 
 .. note:: Windows PowerShell 4.0 is required for using the **dsc_script** resource with Chef.
 
@@ -4741,7 +4745,11 @@ This resource has the following properties:
 
    A symbol that specifies the type of package. Possible values: ``:custom`` (such as installing a non-.msi file that embeds an .msi-based installer), ``:inno`` (Inno Setup), ``:installshield`` (InstallShield), ``:msi`` (Microsoft Installer Package (MSI)), ``:nsis`` (Nullsoft Scriptable Install System (NSIS)), ``:wise`` (Wise).
 
+<<<<<<< HEAD
    Changed in Chef Client 12.6 to support diverse installer types; Changed in 12.0 to require a symbol.
+=======
+   New in Chef Client 12.6.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``notifies``
    **Ruby Type:** Symbol, 'Chef::Resource[String]'

@@ -10,10 +10,14 @@ Use the **windows_service** resource to manage a service on the Microsoft Window
 .. end_tag
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 New in Chef Client 12.0.
 =======
 New in Chef client 12.0.
 >>>>>>> 178ba83... Adds version 12.1 notes
+=======
+New in Chef Client 12.0.
+>>>>>>> 0f98217... Normalized capitalization
 
 Syntax
 =====================================================

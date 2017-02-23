@@ -42,10 +42,14 @@ This subcommand has the following options:
    Use to exit immediately upon error.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.2.
 =======
    New in Chef client 12.2.
 >>>>>>> 7add97f... Adds version 12.2 notes
+=======
+   New in Chef Client 12.2.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``-G GATEWAY``, ``--ssh-gateway GATEWAY``
    The SSH tunnel or gateway that is used to run a bootstrap action on a machine that is not accessible from the workstation.
@@ -79,7 +83,7 @@ This subcommand has the following options:
 ``-t SECONDS``, ``--ssh-timeout SECONDS``
    The amount of time (in seconds) to wait for an SSH connection time out.
 
-   New in Chef client 12.9.
+   New in Chef Client 12.9.
 
 ``--tmux-split``
    Split the Tmux window. Default value: ``false``.

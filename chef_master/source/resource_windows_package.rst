@@ -95,7 +95,11 @@ This resource has the following properties:
 
    A symbol that specifies the type of package. Possible values: ``:custom`` (such as installing a non-.msi file that embeds an .msi-based installer), ``:inno`` (Inno Setup), ``:installshield`` (InstallShield), ``:msi`` (Microsoft Installer Package (MSI)), ``:nsis`` (Nullsoft Scriptable Install System (NSIS)), ``:wise`` (Wise).
 
+<<<<<<< HEAD
    Changed in Chef Client 12.6 to support diverse installer types; Changed in 12.0 to require a symbol.
+=======
+   New in Chef Client 12.6.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``notifies``
    **Ruby Type:** Symbol, 'Chef::Resource[String]'

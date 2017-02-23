@@ -14,7 +14,11 @@ A client.rb file is used to specify the configuration details for the chef-clien
 
 .. end_tag
 
+<<<<<<< HEAD
 Changed in Chef Client 12.11 to support standard ``exit-status``codes. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.3, ``listen`` can be used in socketless mode. Changed in 12.1 to run chef-client in audit_mode. Changed in 12.1, ``windows_service.watchdog_timeout`` defaults to ``2 * (60 * 60)``. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default, file_staging_uses_destdir creates temporary files in the directory in which the files will reside by default, ``local_key_generation`` is enabled by default``, ``no_lazy_load`` defaults to ``true``, ``interval`` and ``splay`` are applied before the chef-client run, unforked interval runs are no longer allowed.
+=======
+Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced.
+>>>>>>> 0f98217... Normalized capitalization
 
 Settings
 =====================================================
@@ -26,7 +30,11 @@ This configuration file has the following settings:
 ``audit_mode``
    Enable audit-mode. Set to ``audit-only`` to skip the converge phase of the chef-client run and only perform audits. Possible values: ``audit-only``, ``disabled``, and ``enabled``. Default value: ``disabled``.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.4 to "stable", changed in 12.1 to run chef-client in audit_mode.
+=======
+   New in Chef Client 12.4.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``automatic_attribute_whitelist``
    A Hash that whitelists ``automatic`` attributes, preventing non-whitelisted attributes from being saved.
@@ -217,10 +225,14 @@ This configuration file has the following settings:
    Run chef-zero in socketless mode. Set to ``false`` to disable port binding and HTTP requests on localhost.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.3.
 =======
    New in Chef client 12.3.
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``local_key_generation``
    Whether the Chef server or chef-client generates the private/public key pair. When ``true``, the chef-client generates the key pair, and then sends the public key to the Chef server. Default value: ``true``.
@@ -239,7 +251,11 @@ This configuration file has the following settings:
 ``log_location``
    The location of the log file. Possible values: ``/path/to/log_location``, ``STDOUT``, ``STDERR``, ``:win_evt`` (Windows Event Logger), or ``:syslog`` (writes to the syslog daemon facility with the originator set as ``chef-client``). The application log will specify the source as ``Chef``. Default value: ``STDOUT``.
 
+<<<<<<< HEAD
    Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in 12.4 to support the Windows Event Logger and configuration with the daemon facility.
+=======
+   Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in Chef Client 12.4 to support the Windows Event Logger and configuration with the daemon facility.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``minimal_ohai``
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.

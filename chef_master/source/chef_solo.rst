@@ -322,10 +322,14 @@ This command has the following options:
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.3.
 =======
    New in Chef client 12.3.
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``--[no-]color``
    View colored output. Default setting: ``--color``.

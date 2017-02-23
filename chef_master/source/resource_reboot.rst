@@ -10,10 +10,14 @@ Use the **reboot** resource to reboot a node, a necessary step with some install
 .. end_tag
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 New in Chef Client 12.0
 =======
 New in Chef client 12.0
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
+=======
+New in Chef Client 12.0
+>>>>>>> 0f98217... Normalized capitalization
 
 Syntax
 =====================================================

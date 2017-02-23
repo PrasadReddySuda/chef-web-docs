@@ -1329,7 +1329,7 @@ is equivalent to:
      action :delete
    end
 
-New in Chef client 12.10.
+New in Chef Client 12.10.
 
 .. end_tag
 
@@ -1356,7 +1356,7 @@ For example:
 
    delete_resource(:template, '/x/y.erb')
 
-New in Chef client 12.10.
+New in Chef Client 12.10.
 
 .. end_tag
 
@@ -1383,7 +1383,7 @@ For example:
 
    delete_resource!(:file, '/x/file.txt')
 
-New in Chef client 12.10.
+New in Chef Client 12.10.
 
 .. end_tag
 
@@ -1528,7 +1528,7 @@ For example:
 
    find_resource!(:template, '/x/y.erb')
 
-New in Chef client 12.10.
+New in Chef Client 12.10.
 
 .. end_tag
 

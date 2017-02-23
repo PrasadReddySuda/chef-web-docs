@@ -164,10 +164,14 @@ This command has the following options:
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    New in Chef Client 12.3.
 =======
    New in Chef client 12.3.
 >>>>>>> fce95b1... Version 12.3 annotations
+=======
+   New in Chef Client 12.3.
+>>>>>>> 0f98217... Normalized capitalization
 
 ``--[no-]color``
    View colored output. Default setting: ``--color``.
@@ -188,8 +192,6 @@ This command has the following options:
 
 ``-s SECONDS``, ``--splay SECONDS``
    A random number between zero and ``splay`` that is added to ``interval``. Use splay to help balance the load on the Chef server by ensuring that many chef-client runs are not occuring at the same interval. When the chef-client is run at intervals, ``--splay`` and ``--interval`` values are applied before the chef-client run.
-
-   Changed in Chef Client 12.0 to be applied before the chef-client run.
 
 ``-u USER``, ``--user USER``
    The user that owns a process. This is required when starting any executable as a daemon.
