@@ -153,8 +153,6 @@ The following resources are platform resources (i.e. "are available from the che
 
        .. end_tag
 
-      New in Chef Client 12.0.
-
    * - :doc:`breakpoint </resource_breakpoint>`
      - .. tag resource_breakpoint_summary
 
@@ -426,8 +424,6 @@ The following resources are platform resources (i.e. "are available from the che
 
        .. end_tag
 
-       New in Chef Client 12.0.
-
    * - :doc:`registry_key </resource_registry_key>`
      - .. tag resource_registry_key_summary
 
@@ -545,8 +541,6 @@ The following resources are platform resources (i.e. "are available from the che
        Use the **windows_service** resource to manage a service on the Microsoft Windows platform. New in Chef Client 12.0.
 
        .. end_tag
-
-      New in Chef Client 12.0.
 
    * - :doc:`yum_package </resource_yum>`
      - .. tag resource_package_yum
