@@ -215,6 +215,7 @@ This command has the following options:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed. 
 =======
    Changed in Chef Client 12.0.
@@ -222,6 +223,9 @@ This command has the following options:
 =======
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed. 
 >>>>>>> 2efc563... Version notes 12.0 END
+=======
+   Changed in Chef Client 12.0, unforked interval runs are no longer allowed.
+>>>>>>> 2629a0b... fixes trailing space.
 
 ``-F FORMAT``, ``--format FORMAT``
    .. tag ctl_chef_client_options_format

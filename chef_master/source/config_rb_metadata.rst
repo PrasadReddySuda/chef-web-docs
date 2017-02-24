@@ -133,6 +133,8 @@ This configuration file has the following settings:
       gem "chef-sugar"
       gem "chef-provisioning"
 
+   New in Chef Client 12.8.
+
    .. end_tag
 
 ``issues_url``
@@ -242,10 +244,14 @@ This configuration file has the following settings:
       name 'cats'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0 to required.
 =======
    Changed in Chef Client 12.0 to required. 
 >>>>>>> 2efc563... Version notes 12.0 END
+=======
+   Changed in Chef Client 12.0 to required.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 ``ohai_version``
    A range of Ohai versions that are supported by this cookbook. All :ref:`version constraint operators <cookbook_version_constraints>` are applicable to this field.

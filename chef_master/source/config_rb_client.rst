@@ -16,6 +16,7 @@ A client.rb file is used to specify the configuration details for the chef-clien
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed in Chef Client 12.11 to support standard ``exit-status``codes. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.3, ``listen`` can be used in socketless mode. Changed in 12.1 to run chef-client in audit_mode. Changed in 12.1, ``windows_service.watchdog_timeout`` defaults to ``2 * (60 * 60)``. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default, file_staging_uses_destdir creates temporary files in the directory in which the files will reside by default, ``local_key_generation`` is enabled by default``, ``no_lazy_load`` defaults to ``true``, ``interval`` and ``splay`` are applied before the chef-client run, unforked interval runs are no longer allowed.
 =======
 Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced.
@@ -23,6 +24,9 @@ Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9
 =======
 Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default.
 >>>>>>> 2efc563... Version notes 12.0 END
+=======
+Changed in Chef Client 12.11 to support standard ``exit-status``codes. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.3, ``listen`` can be used in socketless mode. Changed in 12.1 to run chef-client in audit_mode. Changed in 12.1, ``windows_service.watchdog_timeout`` defaults to ``2 * (60 * 60)``. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default, file_staging_uses_destdir creates temporary files in the directory in which the files will reside by default, ``local_key_generation`` is enabled by default``, ``no_lazy_load`` defaults to ``true``, ``interval`` and ``splay`` are applied before the chef-client run, unforked interval runs are no longer allowed.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 Settings
 =====================================================
@@ -35,10 +39,14 @@ This configuration file has the following settings:
    Enable audit-mode. Set to ``audit-only`` to skip the converge phase of the chef-client run and only perform audits. Possible values: ``audit-only``, ``disabled``, and ``enabled``. Default value: ``disabled``.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.4 to "stable", changed in 12.1 to run chef-client in audit_mode.
 =======
    New in Chef Client 12.4.
 >>>>>>> 0f98217... Normalized capitalization
+=======
+   Changed in Chef Client 12.4 to "stable", changed in 12.1 to run chef-client in audit_mode.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 ``automatic_attribute_whitelist``
    A Hash that whitelists ``automatic`` attributes, preventing non-whitelisted attributes from being saved.
@@ -153,7 +161,7 @@ This configuration file has the following settings:
    The path to the environment. Default value: ``/var/chef/environments``.
 
 ``exit_status``
-   When set to ``:enabled``, chef-client will use |url exit codes| for Chef client run status, and any non-standard exit codes will be converted to ``1`` or ``GENERIC_FAILURE``. This setting can also be set to ``:disabled`` which preserves the old behavior of using non-standardized exit codes and skips the Cecation warnings. Default value: ``nil``.
+   When set to ``:enabled``, chef-client will use |url exit codes| for Chef client run status, and any non-standard exit codes will be converted to ``1`` or ``GENERIC_FAILURE``. This setting can also be set to ``:disabled`` which preserves the old behavior of using non-standardized exit codes and skips the deprecation warnings. Default value: ``nil``.
 
    .. note:: The behavior with the default value consists of a warning on the use of deprecated and non-standard exit codes. In a future release of Chef client, using standardized exit codes will be the default behavior.
 
@@ -220,10 +228,14 @@ This configuration file has the following settings:
    The frequency (in seconds) at which the chef-client runs. Default value: ``1800``.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked intervals are no longer allowed.
 =======
    Changed in Chef Client 12.0.
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
+=======
+   Changed in Chef Client 12.0, unforked intervals are no longer allowed.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 ``json_attribs``
    The path to a file that contains JSON data.
@@ -233,6 +245,7 @@ This configuration file has the following settings:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.3.
 =======
    New in Chef client 12.3.
@@ -240,6 +253,9 @@ This configuration file has the following settings:
 =======
    New in Chef Client 12.3.
 >>>>>>> 0f98217... Normalized capitalization
+=======
+   Changed in Chef Client 12.3.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 ``local_key_generation``
    Whether the Chef server or chef-client generates the private/public key pair. When ``true``, the chef-client generates the key pair, and then sends the public key to the Chef server. Default value: ``true``.
@@ -259,10 +275,14 @@ This configuration file has the following settings:
    The location of the log file. Possible values: ``/path/to/log_location``, ``STDOUT``, ``STDERR``, ``:win_evt`` (Windows Event Logger), or ``:syslog`` (writes to the syslog daemon facility with the originator set as ``chef-client``). The application log will specify the source as ``Chef``. Default value: ``STDOUT``.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in 12.4 to support the Windows Event Logger and configuration with the daemon facility.
 =======
    Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in Chef Client 12.4 to support the Windows Event Logger and configuration with the daemon facility.
 >>>>>>> 0f98217... Normalized capitalization
+=======
+   Changed in Chef Client 12.9 to support new ``:win_evt`` and ``:syslog`` output locations.  Changed in 12.4 to support the Windows Event Logger and configuration with the daemon facility.
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 
 ``minimal_ohai``
    Run the Ohai plugins for name detection and resource/provider selection and no other Ohai plugins. Set to ``true`` during integration testing to speed up test cycles.
@@ -424,6 +444,8 @@ For example, when using knife, the following configuration files would be loaded
 The ``old_settings.rb.bak`` file is ignored because it's not a configuration file. The ``config.rb``, ``company_settings.rb``, and ``ec2_configuration`` files are merged together as if they are a single configuration file.
 
 .. note:: If multiple configuration files exists in a ``.d`` directory, ensure that the same setting has the same value in all files.
+
+New in Chef Client 12.8.
 
 .. end_tag
 

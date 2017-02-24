@@ -1031,12 +1031,16 @@ Notes about FIPS:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
 
 =======
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
 =======
 *New in Chef Client 12.8, support for OpenSSL validation of FIPS.*
+=======
+Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+>>>>>>> 633ce7e... dtags edited
 
 >>>>>>> 0f98217... Normalized capitalization
 .. end_tag

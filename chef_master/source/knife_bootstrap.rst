@@ -303,6 +303,7 @@ Notes about FIPS:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
 =======
 *New in Chef Client 12.8, support for OpenSSL validation of FIPS.*
@@ -310,6 +311,10 @@ Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Cl
 
 =======
 >>>>>>> 5cb6743... Fixed tables and dtags
+=======
+Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+
+>>>>>>> 633ce7e... dtags edited
 .. end_tag
 
 **Bootstrap a node using FIPS**

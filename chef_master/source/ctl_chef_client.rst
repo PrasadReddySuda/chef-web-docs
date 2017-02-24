@@ -90,6 +90,11 @@ This command has the following options:
 ``--delete-entire-chef-repo``
    This option deletes an entire repository.  This option may only be used when running the chef-client in local mode, (``--local-mode``).  This option requires ``--recipe-url`` to be specified.
 
+<<<<<<< HEAD
+=======
+   New in Chef Client 12.7
+
+>>>>>>> 0e48172... Edits for consistency and config_rb_client summary.
 ``--disable-config``
    Use to run the chef-client using default settings. This will prevent the normally-associated configuration file from being used. This setting should only be used for testing purposes and should never be used in a production setting.
 
@@ -101,6 +106,7 @@ This command has the following options:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed.
 =======
    Changed in Chef Client 12.0.
@@ -108,6 +114,9 @@ This command has the following options:
 =======
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed. 
 >>>>>>> 2efc563... Version notes 12.0 END
+=======
+   Changed in Chef Client 12.0, unforked interval runs are no longer allowed.
+>>>>>>> 633ce7e... dtags edited
 
 ``-F FORMAT``, ``--format FORMAT``
    .. tag ctl_chef_client_options_format
@@ -469,6 +478,7 @@ Notes about FIPS:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
 =======
 *New in Chef Client 12.8, support for OpenSSL validation of FIPS.*
@@ -476,6 +486,10 @@ Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Cl
 
 =======
 >>>>>>> 5cb6743... Fixed tables and dtags
+=======
+Changed in Chef server 12.13 to expose FIPS runtime flag on RHEL. New in Chef Client 12.8, support for OpenSSL validation of FIPS.
+
+>>>>>>> 633ce7e... dtags edited
 .. end_tag
 
 **Bootstrap a node using FIPS**
