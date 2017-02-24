@@ -15,10 +15,14 @@ A client.rb file is used to specify the configuration details for the chef-clien
 .. end_tag
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed in Chef Client 12.11 to support standard ``exit-status``codes. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.3, ``listen`` can be used in socketless mode. Changed in 12.1 to run chef-client in audit_mode. Changed in 12.1, ``windows_service.watchdog_timeout`` defaults to ``2 * (60 * 60)``. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default, file_staging_uses_destdir creates temporary files in the directory in which the files will reside by default, ``local_key_generation`` is enabled by default``, ``no_lazy_load`` defaults to ``true``, ``interval`` and ``splay`` are applied before the chef-client run, unforked interval runs are no longer allowed.
 =======
 Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced.
 >>>>>>> 0f98217... Normalized capitalization
+=======
+Changed in Chef Client 12.11 to support ``exit-status`` setting. Changed in 12.9 to support new ``:win_evt`` and ``:syslog`` output locations. Changed in 12.8 to support ``.d`` setting. Changed in 12.4 to support the Windows Event Logger and the daemon facility, see ``log_location``; stable audit-mode introduced. Changed in 12.0 to set the ``disable_event_logger`` to send events to the Microsoft Windows "Application" event log by default.
+>>>>>>> 2efc563... Version notes 12.0 END
 
 Settings
 =====================================================
@@ -122,10 +126,13 @@ This configuration file has the following settings:
 
 ``disable_event_logger``
    Enable or disable sending events to the Microsoft Windows "Application" event log. When ``false``, events are sent to the Microsoft Windows "Application" event log at the start and end of a chef-client run, and also if a chef-client run fails. Set to ``true`` to disable event logging. Default value: ``false``.
+<<<<<<< HEAD
 
    Changed in Chef Client 12.0 to send events to the Microsoft Windows "Application" event log by default.
+=======
+>>>>>>> 2efc563... Version notes 12.0 END
 
-   Changed in Chef Client 12.0.
+   Changed in Chef Client 12.0 to send events to the Microsoft Windows "Application" event log by default.
 
 ``enable_reporting``
    Cause the chef-client to send data to the Chef server for use with Reporting.

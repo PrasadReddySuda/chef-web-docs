@@ -241,7 +241,11 @@ This configuration file has the following settings:
 
       name 'cats'
 
+<<<<<<< HEAD
    Changed in Chef Client 12.0 to required.
+=======
+   Changed in Chef Client 12.0 to required. 
+>>>>>>> 2efc563... Version notes 12.0 END
 
 ``ohai_version``
    A range of Ohai versions that are supported by this cookbook. All :ref:`version constraint operators <cookbook_version_constraints>` are applicable to this field.

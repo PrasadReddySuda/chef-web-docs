@@ -66,10 +66,14 @@ This command has the following options:
    The port on which chef-zero listens. If a port is not specified---individually, as range of ports, or from the ``chef_zero.port`` setting in the client.rb file---the chef-client will scan for ports between 8889-9999 and will pick the first port that is available.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0 to support specifying a range of ports.
 =======
    New in Chef Client 12.0.
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
+=======
+   Changed in Chef Client 12.0 to support specifying a range of ports.
+>>>>>>> 2efc563... Version notes 12.0 END
 
 ``-d SECONDS``, ``--daemonize SECONDS``
    Run the executable as a daemon. Use ``SECONDS`` to specify the number of seconds to wait before the first daemonized chef-client run. ``SECONDS`` is set to ``0`` by default.
@@ -96,10 +100,14 @@ This command has the following options:
    Contain the chef-client run in a secondary process with dedicated RAM. When the chef-client run is complete, the RAM is returned to the master process. This option helps ensure that a chef-client uses a steady amount of RAM over time because the master process does not run recipes. This option also helps prevent memory leaks such as those that can be introduced by the code contained within a poorly designed cookbook. Use ``--no-fork`` to disable running the chef-client in fork node. Default value: ``--fork``.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0, unforked interval runs are no longer allowed.
 =======
    Changed in Chef Client 12.0.
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
+=======
+   Changed in Chef Client 12.0, unforked interval runs are no longer allowed. 
+>>>>>>> 2efc563... Version notes 12.0 END
 
 ``-F FORMAT``, ``--format FORMAT``
    .. tag ctl_chef_client_options_format

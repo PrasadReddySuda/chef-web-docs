@@ -9,8 +9,12 @@ Use the **windows_package** resource to manage Microsoft Installer Package (MSI)
 
 .. end_tag
 
+<<<<<<< HEAD
 Changed in 12.4 to include ``checksum`` and ``remote_file_attributes`` and URL locations on the ``source`` properties. Changed in Chef Client 12.6 to support a greater variety of ``installer_type``; Changed in 12.0 for ``installer_type`` to require a symbol.
 
+=======
+Changed in 12.4 to include ``checksum`` and ``remote_file_attributes`` and URL locations on the ``source`` properties. Changed in Chef Client 12.6 to support a greater variety of ``installer_type``; Changed in 12.0 for ``installer_type`` to require a symbol. 
+>>>>>>> 2efc563... Version notes 12.0 END
 
 Syntax
 =====================================================
@@ -96,10 +100,14 @@ This resource has the following properties:
    A symbol that specifies the type of package. Possible values: ``:custom`` (such as installing a non-.msi file that embeds an .msi-based installer), ``:inno`` (Inno Setup), ``:installshield`` (InstallShield), ``:msi`` (Microsoft Installer Package (MSI)), ``:nsis`` (Nullsoft Scriptable Install System (NSIS)), ``:wise`` (Wise).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.6 to support diverse installer types; Changed in 12.0 to require a symbol.
 =======
    New in Chef Client 12.6.
 >>>>>>> 0f98217... Normalized capitalization
+=======
+   Changed in Chef Client 12.6 to support diverse installer types; Changed in 12.0 to require a symbol.
+>>>>>>> 2efc563... Version notes 12.0 END
 
 ``notifies``
    **Ruby Type:** Symbol, 'Chef::Resource[String]'

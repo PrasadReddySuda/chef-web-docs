@@ -12,10 +12,14 @@ The following options can be run with all knife subcommands and plug-ins:
    The port on which chef-zero listens.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    Changed in Chef Client 12.0 to support specifying a range of ports.
 =======
    New in Chef Client 12.0.
 >>>>>>> 41705f4... Adds 12.0 version notes -- part 1
+=======
+   Changed in Chef Client 12.0 to support specifying a range of ports.
+>>>>>>> 2efc563... Version notes 12.0 END
 
 ``-d``, ``--disable-editing``
    Prevent the $EDITOR from being opened and accept data as-is.
